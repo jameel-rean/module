@@ -6,25 +6,25 @@ variable "AWSNATAMI" {
 }
 
 variable "KeyName" {
-	default ="jameel_nv"
+	default =""
 }
 variable "VPC" {
-	default ="vpc-b86ef7dc"
+	default =""
 }
 variable "VpcCidr" {
 	default ="10.0.0.0/16"
 }
 variable "PublicSubnet1" {
-	default ="subnet-825947a9"
+	default =""
 }
 variable "PublicSubnet2" {
-	default ="subnet-06b27870"
+	default =""
 }
 variable "PrivateRouteTable1" {
-	default ="rtb-4e58092a"
+	default =""
 }
 variable "PrivateRouteTable2" {
-	default ="rtb-4f58092b"
+	default =""
 }
 variable "NATNodeInstanceType" {
 	default ="m1.small"
